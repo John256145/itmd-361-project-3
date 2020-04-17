@@ -1,0 +1,121 @@
+body {
+  background-color: #202124;
+  color: White;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navigation-bar {
+  background-color: #212121;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,.5);
+  display: inline-block;
+}
+
+.navigation-bar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 108%;
+}
+
+.navigation-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navigation-bar a.active {
+  background-color: #9e9e9e;
+  color: white;
+}
+
+video {
+  height: 18%;
+  width: 18%;
+}
+
+.index-img img {
+  border-radius: 5%;
+}
+
+mark.red {
+  color: #F44336;
+  background: none;
+}
+
+mark.gray {
+  color: #aba9a9;
+  background: none;
+}
+
+mark.title {
+  background: none;
+  color: #c7c7c7;
+}
+.interests-img img {
+  height: 50%;
+  width: 50%;
+}
+
+.resume {
+  text-align: left;
+  font-family: sans-serif;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 1500px;
+}
+
+#resume-main {
+  position: fixed;
+  right: 0;
+  width: 400px;
+  /* margin-right: 15%;
+  margin-left: 10%;
+  text-align: right;
+  width: 1500px; */
+}
+
+a {
+  color: #b6bfcf;
+}
+
+/* table {
+  height:100%;
+  width:100%;
+  border:2px solid white;
+  text-align:center;
+} */
+
+h2 {
+  text-align: center;
+  font-size: 180%;
+  position: inherit;
+}
+
+.hoverGreen:hover {
+  color: #b2f7c2;
+}
+
+.hoverBlue:hover {
+  color: #9eb3ff;
+}
+
+.hoverYellow:hover {
+  color: #f5ff9e;
+}
+
+.hoverPink:hover {
+  color: #ff99d3;
+}
+
+.hoverGlow:hover {
+  text-shadow: 2px 2px 5px yellow;
+  transition: all 200ms ease-out;
+}
+
+.table-text {
+  font-size: 25px;
+}
