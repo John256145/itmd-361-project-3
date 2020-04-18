@@ -6,6 +6,7 @@ body {
 }
 
 .navigation-bar {
+  height: auto;
   background-color: #212121;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0,0,0,.5);
@@ -118,4 +119,11 @@ h2 {
 
 .table-text {
   font-size: 25px;
+}
+#map {
+  height: 100%;
+}
+
+html, body {
+  height: 100%; 
 }
