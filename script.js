@@ -3,7 +3,7 @@ var marker;
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 41.70275, lng: -87.535264},
-    zoom: 13,
+    zoom: 14,
     //dark mode
     styles: [
             {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
